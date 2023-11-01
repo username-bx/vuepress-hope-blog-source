@@ -9,14 +9,13 @@ export default navbar([
     prefix: "/posts/",
     children: [
       {
-        text: "苹果",
+        text: "vuepress1.0",
         icon: "pen-to-square",
-        prefix: "apple/",
+        prefix: "vuepress/",
         children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
+          { text: "vuepress1.0 搭建", icon: "pen-to-square", link: "1" },
+          { text: "vuepress1.0 部署", icon: "pen-to-square", link: "2" },
+          { text: "vuepress1.0 记录", icon: "pen-to-square", link: "3" },
         ],
       },
       {
@@ -44,9 +43,9 @@ export default navbar([
       "strawberry",
     ],
   },
-  {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
-  },
+  // {
+  //   text: "V2 文档",
+  //   icon: "book",
+  //   link: "https://theme-hope.vuejs.press/zh/",
+  // },
 ]);
