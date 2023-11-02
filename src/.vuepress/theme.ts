@@ -4,6 +4,12 @@ import sidebar from "./sidebar.js";
 
 // const MR_HOPE_AVATAR = '' ;
 
+// 参考: https://theme-hope.vuejs.press/zh/guide/
+// hopeTheme 可以传入第二个参数 
+// 实现通过别名替换组件
+// { custom: true }
+// config.ts 添加 alias 配置
+
 export default hopeTheme({
   hostname: "http://luogesidoc.com",
 
@@ -17,19 +23,25 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  // 左上角logo 和 头像
-  logo: "/sun.svg",
-
-  // 右上角 github 链接
-  repo: "username-bx/vuepress-hope-blog-source",
-
   docsDir: "src",
 
-  // navbar
+  // navbar 导航栏
   navbar,
+  // 导航栏 左上角logo 和 头像   (导航栏图标，应为基于 .vuepress/public 文件夹的绝对路径)
+  logo: "/sun.svg",
+  // 导航栏 左上角logo 和 头像   (夜间模式下导航栏图标，应为基于 .vuepress/public 文件夹的绝对路径)
+  logoDark: '/sun.svg',
+  // 导航栏 右上角 github 链接
+  repo: "username-bx/vuepress-hope-blog-source",
+  // 导航栏 右上角 github 无障碍标签
+  repoLabel: 'github',
+  // 导航栏 向下滚动时自动隐藏导航栏
+  navbarAutoHide: 'always',
 
   // sidebar
   sidebar,
+  // 侧边栏 排序器
+  sidebarSorter: 'date',
 
   hotReload: true,
 
@@ -38,6 +50,11 @@ export default hopeTheme({
   displayFooter: true,
 
   blog: {
+    // 博主姓名
+    name: 'Tang Yuan',
+    // 博主头像
+    avatar: '/sun.svg',
+    // 博主介绍
     description: "love coding, happy life",
     intro: "/intro.html",
     medias: {
@@ -220,4 +237,4 @@ export default hopeTheme({
     //   },
     // },
   },
-});
+}, { custom: true });

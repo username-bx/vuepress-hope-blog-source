@@ -11,9 +11,15 @@ devDependencies:
   '@vuepress/plugin-google-analytics':
     specifier: 2.0.0-beta.67
     version: registry.npmmirror.com/@vuepress/plugin-google-analytics@2.0.0-beta.67
+  '@vuepress/utils':
+    specifier: 2.0.0-beta.67
+    version: registry.npmmirror.com/@vuepress/utils@2.0.0-beta.67
   vue:
     specifier: ^3.3.4
     version: registry.npmmirror.com/vue@3.3.7
+  vue-router:
+    specifier: ^4.2.5
+    version: registry.npmmirror.com/vue-router@4.2.5(vue@3.3.7)
   vuepress:
     specifier: 2.0.0-beta.67
     version: registry.npmmirror.com/vuepress@2.0.0-beta.67(@vuepress/client@2.0.0-beta.67)(vue@3.3.7)
