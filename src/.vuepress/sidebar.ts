@@ -4,10 +4,10 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "如何使用",
+      text: "软件(工具)集合",
       icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      prefix: "software/",
+      link: "software/",
       children: "structure",
     },
     {
