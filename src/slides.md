@@ -2,6 +2,10 @@
 title: 幻灯片页
 icon: person-chalkboard
 layout: Slide
+# 设置作者
+author: Ms.Hope
+# 设置写作时间
+date: 2020-01-01
 ---
 
 <!-- markdownlint-disable MD024 MD033 MD051 -->

@@ -6,6 +6,10 @@ category:
   - 使用指南
 tag:
   - Markdown
+# 设置作者
+author: Ms.Hope
+# 设置写作时间
+date: 2020-01-01
 ---
 
 VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。

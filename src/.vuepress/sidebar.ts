@@ -6,14 +6,19 @@ export default sidebar({
     {
       text: "软件(工具)集合",
       icon: "laptop-code",
-      prefix: "software/",
-      link: "software/",
+      prefix: "posts/software",
       children: "structure",
     },
     {
-      text: "文章",
+      text: "vuepress1.0",
       icon: "book",
-      prefix: "posts/",
+      prefix: "posts/vuepress",
+      children: "structure",
+    },
+    {
+      text: "博客帮助文档",
+      icon: 'circle-info',
+      prefix: "demo",
       children: "structure",
     },
     "intro",

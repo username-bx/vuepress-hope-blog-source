@@ -6,7 +6,7 @@ export default navbar([
   {
     text: "软件及工具",
     icon: "folder",
-    prefix: "/post/software/",
+    prefix: "/posts/software/",
     children: [
       { text: "Linux 常用命令", icon: "pen-to-square", link: "liunx" },
       { text: "Navicat 重置试用期时间", icon: "pen-to-square", link: "navicat" },
@@ -35,6 +35,17 @@ export default navbar([
       // "strawberry",
     ],
   },
+  {
+    text: "博客帮助文档",
+    icon: "circle-info",
+    prefix: "/demo/",
+    children: [
+      { text: "Markdown 展示", icon: "pen-to-square", link: "markdown" },
+      { text: "页面展示", icon: "pen-to-square", link: "page" },
+      { text: "禁用展示", icon: "pen-to-square", link: "disable" },
+      { text: "加密展示", icon: "pen-to-square", link: "encrypt" },
+    ]
+  }
   // {
   //   text: "V2 文档",
   //   icon: "book",
