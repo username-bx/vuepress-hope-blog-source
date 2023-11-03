@@ -5,12 +5,11 @@ export default navbar([
   "/software/",
   {
     text: "博文",
-    icon: "pen-to-square",
+    icon: "newspaper",
     prefix: "/posts/",
     children: [
       {
         text: "vuepress1.0",
-        icon: "pen-to-square",
         prefix: "vuepress/",
         children: [
           { text: "vuepress1.0 搭建", icon: "pen-to-square", link: "1" },
@@ -24,9 +23,6 @@ export default navbar([
         prefix: "banana/",
         children: [
           { text: "香蕉 1", icon: "pen-to-square", link: "1" },
-          { text: "香蕉 2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
         ],
       },
       { text: "樱桃", icon: "pen-to-square", link: "cherry" },
