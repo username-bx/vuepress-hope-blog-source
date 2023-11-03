@@ -21,7 +21,15 @@ export default hopeTheme({
   // 站点图标
   favicon: 'sun.svg',
 
-  iconAssets: "fontawesome-with-brands",
+  // 设置图标资源
+  iconAssets: 'fontawesome-with-brands',
+  // iconAssets: 'iconfont',
+  // iconPrefix: 'icon-',
+  // iconAssets: [
+  //   "iconfont",
+  //   "fontawesome-with-brands",
+  //   "//at.alicdn.com/t/c/font_4314330_7v1yy674fxp.css",
+  // ],
 
   docsDir: "src",
 
