@@ -118,7 +118,7 @@ export default hopeTheme({
     // You should create and use your own comment service in production.
     comment: {
       provider: "Waline",
-      serverURL: "http://comments.luogesidoc.com",
+      serverURL: "https://comments.luogesidoc.com/",
       requiredMeta: ['nick'],
       copyright: false
     },
