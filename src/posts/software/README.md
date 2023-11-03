@@ -5,7 +5,8 @@ icon: laptop-code
 ---
 
 ## 目录
-
+- <HopeIcon icon="home" color="red" />
+<!-- - <HopeIcon icon="/logo.svg" size="4rem" /> -->
 - [Linux 常用命令](liunx.md)
 
 - [Navicat 重置试用期时间](navicat.md)
