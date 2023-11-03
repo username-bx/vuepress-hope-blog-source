@@ -2,7 +2,21 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/software/",
+  // "/software/",
+  {
+    text: "软件及工具",
+    icon: "folder",
+    prefix: "/post/software/",
+    children: [
+      { text: "Linux 常用命令", icon: "pen-to-square", link: "liunx" },
+      { text: "Navicat 重置试用期时间", icon: "pen-to-square", link: "navicat" },
+      { text: "ssh", children: [
+        { text: "SSH生成密钥,git使用ssh连接", icon: "pen-to-square", link: "ssh" },
+        { text: "使用ssh同时连接gitlab&github", icon: "pen-to-square", link: "ssh2" },
+        { text: "linux使用ssh连接github", icon: "pen-to-square", link: "ssh3" },
+      ]}
+    ]
+  },
   {
     text: "博文",
     icon: "newspaper",
@@ -17,10 +31,8 @@ export default navbar([
           { text: "vuepress1.0 记录", icon: "pen-to-square", link: "3" },
         ],
       },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
+      // { text: "樱桃", icon: "pen-to-square", link: "cherry" },
+      // "strawberry",
     ],
   },
   // {
