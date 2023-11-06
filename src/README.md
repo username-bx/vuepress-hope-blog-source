@@ -2,16 +2,21 @@
 home: true
 layout: BlogHome
 icon: home
-title: 主页
+title: Record
+hero: true
 heroImage: /sun.svg
+image: /sun.svg
 heroText: 汤圆随笔
 heroFullScreen: true
-tagline: Less is More
+tagline: blog home fontend web record website
+headline: blog home
+url: /
+description: blog home fontend web record website
 projects:
   - icon: project
     name: 第一版的博客
     desc: vueprss 1.0 搭建的简单博客
-    link: http://luogesidoc.com
+    link: http://v1.luogesidoc.com
 
   # - icon: link
   #   name: 链接名称

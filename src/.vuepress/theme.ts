@@ -53,7 +53,8 @@ export default hopeTheme({
 
   hotReload: true,
 
-  footer: "默认页脚",
+  // 设置 页脚
+  footer: "Welcome",
 
   displayFooter: true,
 

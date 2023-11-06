@@ -1,9 +1,17 @@
 ---
+title: Navicat 重置试用期 图形化数据库管理及发展软件
+shortTitle: navicat reset
+image: /assets/images/navicat.png
 icon: pen-to-square
 date: 2023-10-23
 order: 2
 tag: 
   - Navicat
+auther: Tang Yuan
+head:
+  - - meta
+    - name: keywords
+      content: navicat reset 
 ---
 
 # Navicat 重置试用期 图形化数据库管理及发展软件
