@@ -1,3 +1,15 @@
+---
+icon: pen-to-square
+date: 2024-05-21
+order: 1
+tag: 
+  - React Native
+---
+
+
+# 环境搭建
+
+
 ## rn介绍
 
 1. react-native 相关介绍

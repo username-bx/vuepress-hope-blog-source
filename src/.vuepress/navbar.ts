@@ -22,7 +22,7 @@ export default navbar([
   {
     text: "React",
     icon: "folder",
-    prefix: "/react/",
+    prefix: "/posts/react/",
     children: [
       { text: "React搭建环境", icon: "pen-to-square", link: "env" },
     ]
@@ -30,7 +30,7 @@ export default navbar([
   {
     text: "React Native",
     icon: "folder",
-    prefix: "/reactNative/",
+    prefix: "/posts/reactNative/",
     children: [
       { text: "React Native搭建环境", icon: "pen-to-square", link: "env" },
     ]

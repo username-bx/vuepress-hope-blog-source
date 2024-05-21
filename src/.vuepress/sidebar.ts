@@ -10,6 +10,18 @@ export default sidebar({
       children: "structure",
     },
     {
+      text: "React",
+      icon: "laptop-code",
+      prefix: "posts/react",
+      children: "structure",
+    },
+    {
+      text: "React Native",
+      icon: "laptop-code",
+      prefix: "posts/reactNative",
+      children: "structure",
+    },
+    {
       text: "vuepress1.0",
       icon: "book",
       prefix: "posts/vuepress",
