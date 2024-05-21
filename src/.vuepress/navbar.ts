@@ -10,11 +10,29 @@ export default navbar([
     children: [
       { text: "Linux 常用命令", icon: "pen-to-square", link: "liunx" },
       { text: "Navicat 重置试用期时间", icon: "pen-to-square", link: "navicat" },
-      { text: "ssh", children: [
-        { text: "SSH生成密钥,git使用ssh连接", icon: "pen-to-square", link: "ssh" },
-        { text: "使用ssh同时连接gitlab&github", icon: "pen-to-square", link: "ssh2" },
-        { text: "linux使用ssh连接github", icon: "pen-to-square", link: "ssh3" },
-      ]}
+      {
+        text: "ssh", children: [
+          { text: "SSH生成密钥,git使用ssh连接", icon: "pen-to-square", link: "ssh" },
+          { text: "使用ssh同时连接gitlab&github", icon: "pen-to-square", link: "ssh2" },
+          { text: "linux使用ssh连接github", icon: "pen-to-square", link: "ssh3" },
+        ]
+      }
+    ]
+  },
+  {
+    text: "React",
+    icon: "folder",
+    prefix: "/react/",
+    children: [
+      { text: "React搭建环境", icon: "pen-to-square", link: "env" },
+    ]
+  },
+  {
+    text: "React Native",
+    icon: "folder",
+    prefix: "/reactNative/",
+    children: [
+      { text: "React Native搭建环境", icon: "pen-to-square", link: "env" },
     ]
   },
   {

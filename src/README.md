@@ -49,6 +49,8 @@ footer: 汤圆随笔记录
 ### 安装依赖
 
 ```
+// corepack enable
+// pnpm -v
 
 pnpm i
 
