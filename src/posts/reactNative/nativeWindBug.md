@@ -1,6 +1,6 @@
 ---
-title: [NativeWind Bug] The web platform does not word on windows
-shortTitle: react reactnative nativewind
+title: NativeWind Bug The web platform does not word on windows
+shortTitle: nativewind reactnative
 icon: pen-to-square
 date: 2024-05-23
 tag:
