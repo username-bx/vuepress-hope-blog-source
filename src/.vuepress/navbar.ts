@@ -38,6 +38,7 @@ export default navbar([
     prefix: "/posts/reactNative/",
     children: [
       { text: "React Native搭建环境", icon: "pen-to-square", link: "env" },
+      { text: "[NativeWind Bug] The web platform does not word on windows", icon: "pen-to-square", link: "nativeWindBug" },
     ]
   },
   {
