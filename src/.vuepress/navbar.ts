@@ -15,6 +15,7 @@ export default navbar([
       { text: "VSCode使用Snippets设置代码块", icon: "pen-to-square", link: "snippets" },
       { text: "Linux 常用命令", icon: "pen-to-square", link: "liunx" },
       { text: "Navicat 重置试用期时间", icon: "pen-to-square", link: "navicat" },
+      { text: "git 常用命令", icon: "pen-to-square", link: "git" },
       {
         text: "ssh", children: [
           { text: "SSH生成密钥,git使用ssh连接", icon: "pen-to-square", link: "ssh" },
