@@ -49,4 +49,4 @@ export function saveList(data) {
 
 ```
 
-![图片](./post.png)
+![图片](./image/post.png)

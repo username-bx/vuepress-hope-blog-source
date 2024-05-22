@@ -8,6 +8,7 @@ export default navbar([
     icon: "folder",
     prefix: "/posts/software/",
     children: [
+      { text: "查看端口占用 windows", icon: "pen-to-square", link: "netstat" },
       { text: "debugger时,get post请求的content-length", icon: "pen-to-square", link: "contentLengthInPost" },
       { text: "复制到剪切板功能", icon: "pen-to-square", link: "clipbord" },
       { text: "使用md5检查el-table中,被修改的一行数据", icon: "pen-to-square", link: "md5element" },
