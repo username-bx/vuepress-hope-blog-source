@@ -8,6 +8,7 @@ export default navbar([
     icon: "folder",
     prefix: "/posts/software/",
     children: [
+      { text: "VSCode使用Snippets设置代码块", icon: "pen-to-square", link: "snippets" },
       { text: "Linux 常用命令", icon: "pen-to-square", link: "liunx" },
       { text: "Navicat 重置试用期时间", icon: "pen-to-square", link: "navicat" },
       {
