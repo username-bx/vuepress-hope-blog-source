@@ -22,7 +22,7 @@ netstat -aon|findstr "8081"
 
 ```
 
-![图片](./image/post.png)
+![图片](./image/netstat01.png)
 
 ## 2. 结束进程
 
