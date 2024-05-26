@@ -1,0 +1,712 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "vuepress-hope-blog",
+      "version": "2.0.0",
+      "description": "a blog",
+      "license": "MIT",
+      "type": "module",
+      "scripts": {
+        "build": "vuepress build src",
+        "clean-dev": "vuepress dev src --clean-cache",
+        "dev": "vuepress dev src",
+        "update-package": "pnpm dlx vp-update"
+      },
+      "devDependencies": {
+        "@vuepress/client": "2.0.0-beta.67",
+        "@vuepress/plugin-copy-code": "s2.0.0-rc.6",
+        "@vuepress/plugin-google-analytics": "2.0.0-beta.67",
+        "@vuepress/utils": "2.0.0-beta.67",
+        "@waline/client": "2.15.8",
+        "mathjax-full": "3.2.2",
+        "vue": "^3.3.4",
+        "vue-router": "^4.2.5",
+        "vuepress": "2.0.0-beta.67",
+        "vuepress-theme-hope": "2.0.0-beta.242"
+      }
+    },
+    "prefix": "D:\\Project\\vuepress-hope-blog-source"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "D:\\.pnpm-store\\v3",
+    "virtualStoreDir": "D:\\Project\\vuepress-hope-blog-source\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "D:\\Project\\vuepress-hope-blog-source",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vuepress/client/2.0.0-beta.67",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vuepress/client",
+      "rawSpec": "2.0.0-beta.67"
+    }
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vuepress/plugin-google-analytics/2.0.0-beta.67",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vuepress/plugin-google-analytics",
+      "rawSpec": "2.0.0-beta.67"
+    }
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vuepress/utils/2.0.0-beta.67",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vuepress/utils",
+      "rawSpec": "2.0.0-beta.67"
+    }
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@waline/client/2.15.8",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@waline/client",
+      "rawSpec": "2.15.8"
+    }
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/mathjax-full/3.2.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "mathjax-full",
+      "rawSpec": "3.2.2"
+    }
+  },
+  "9 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/vue/3.4.27",
+    "wanted": {
+      "dependentId": ".",
+      "name": "vue",
+      "rawSpec": "^3.3.4"
+    }
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/vue-router/4.3.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "vue-router",
+      "rawSpec": "^4.2.5"
+    }
+  },
+  "11 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/vuepress/2.0.0-beta.67",
+    "wanted": {
+      "dependentId": ".",
+      "name": "vuepress",
+      "rawSpec": "2.0.0-beta.67"
+    }
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/vuepress-theme-hope/2.0.0-beta.242",
+    "wanted": {
+      "dependentId": ".",
+      "name": "vuepress-theme-hope",
+      "rawSpec": "2.0.0-beta.242"
+    }
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vuepress/client/2.0.0-beta.67",
+    "requester": "D:\\Project\\vuepress-hope-blog-source",
+    "status": "resolved"
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vuepress/client/2.0.0-beta.67",
+    "requester": "D:\\Project\\vuepress-hope-blog-source",
+    "status": "found_in_store"
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vuepress/plugin-google-analytics/2.0.0-beta.67",
+    "requester": "D:\\Project\\vuepress-hope-blog-source",
+    "status": "resolved"
+  },
+  "16 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vuepress/plugin-google-analytics/2.0.0-beta.67",
+    "requester": "D:\\Project\\vuepress-hope-blog-source",
+    "status": "found_in_store"
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@waline/client/2.15.8",
+    "requester": "D:\\Project\\vuepress-hope-blog-source",
+    "status": "resolved"
+  },
+  "18 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@waline/client/2.15.8",
+    "requester": "D:\\Project\\vuepress-hope-blog-source",
+    "status": "found_in_store"
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vuepress/utils/2.0.0-beta.67",
+    "requester": "D:\\Project\\vuepress-hope-blog-source",
+    "status": "resolved"
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@vuepress/utils/2.0.0-beta.67",
+    "requester": "D:\\Project\\vuepress-hope-blog-source",
+    "status": "found_in_store"
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vue/3.4.27",
+    "requester": "D:\\Project\\vuepress-hope-blog-source",
+    "status": "resolved"
+  },
+  "22 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vue/3.4.27",
+    "requester": "D:\\Project\\vuepress-hope-blog-source",
+    "status": "found_in_store"
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vue-router/4.3.2",
+    "requester": "D:\\Project\\vuepress-hope-blog-source",
+    "status": "resolved"
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vue-router/4.3.2",
+    "requester": "D:\\Project\\vuepress-hope-blog-source",
+    "status": "found_in_store"
+  },
+  "25 warn pnpm:install-check": {
+    "message": "Unsupported engine for registry.npmjs.org/vuepress/2.0.0-beta.67: wanted: {\"node\":\">=16.19.0\"} (current: {\"node\":\"v16.16.0\",\"pnpm\":\"6.11.0\"})",
+    "prefix": "D:\\Project\\vuepress-hope-blog-source"
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vuepress/2.0.0-beta.67",
+    "requester": "D:\\Project\\vuepress-hope-blog-source",
+    "status": "resolved"
+  },
+  "27 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vuepress/2.0.0-beta.67",
+    "requester": "D:\\Project\\vuepress-hope-blog-source",
+    "status": "found_in_store"
+  },
+  "28 error pnpm": {
+    "code": "ERR_PNPM_NO_MATCHING_VERSION",
+    "packageMeta": {
+      "name": "@vuepress/plugin-copy-code",
+      "dist-tags": {
+        "next": "2.0.0-rc.30",
+        "latest": "2.0.0-rc.6"
+      },
+      "versions": {
+        "2.0.0-rc.6": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.6",
+          "dependencies": {
+            "@vuepress/helper": "2.0.0-rc.6",
+            "@vueuse/core": "^10.7.2",
+            "vue": "^3.4.15"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.2"
+          },
+          "dist": {
+            "integrity": "sha512-9/yjNNpD2D+bUTQvhUATK2ngugLgQuUtEXdAFUZtw1HWxozJwxUbMlB8FuLTaJPyln6/tpJmwdpOBsHhkKGz5g==",
+            "shasum": "c49097b2c9ca6e11c9e9546d887e96ff401af47a",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.6.tgz",
+            "fileCount": 26,
+            "unpackedSize": 14972,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQDNkXdgZQZt1iga3s/hE/8dfc5L9xXfMaCybzq27LCfdwIhAKg5KIgYKZTnVfulGvnIvMN/7c4+XlSQhCESpNW1l+v4"
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.7": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.7",
+          "dependencies": {
+            "@vuepress/helper": "2.0.0-rc.7",
+            "@vueuse/core": "^10.7.2",
+            "vue": "^3.4.15"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.2"
+          },
+          "dist": {
+            "integrity": "sha512-5FSMTmLU7A5uoGY1gq9mggNGNYxLsZf3FQtNV5FnjIlZwbQQhjtNRw3N/rzEO/veaTORNDpvm/98wGm9Rojx7A==",
+            "shasum": "a933f12370ce4c53bcc89460ee3c219f739bce81",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.7.tgz",
+            "fileCount": 26,
+            "unpackedSize": 14986,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQC+xr1AKZY4o8GmD+1D0zdYTgZsbP2Ts8yno2yFKUE+BwIgRVjoq+b9IWG2OY55r+HLgwtIdcv77OFK4T9XcYL5csE="
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.8": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.8",
+          "dependencies": {
+            "@vuepress/helper": "2.0.0-rc.7",
+            "@vueuse/core": "^10.7.2",
+            "vue": "^3.4.15"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.2"
+          },
+          "dist": {
+            "integrity": "sha512-e/cEh1HKTA6B1ahUOR9qZBgmEZm2c7hEaXJUXWtP5xzHncFWlwFpOWoqrmzueuy5/le+L0UYNnXs5NN4k/HM0A==",
+            "shasum": "5349d1d1ef79296fd7ada9e9e59eb9921de4871a",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.8.tgz",
+            "fileCount": 26,
+            "unpackedSize": 14567,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQCV6R9GNvcaZW9M5jMf3urC7oKdgGiDEAYXpCCayHXFAwIgcTpr/CSe8mPHF+coA3qT3A1kT2y6471WpmM4+Rdjro4="
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.9": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.9",
+          "dependencies": {
+            "@vuepress/helper": "2.0.0-rc.9",
+            "@vueuse/core": "^10.7.2",
+            "vue": "^3.4.15"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.2"
+          },
+          "dist": {
+            "integrity": "sha512-LCNZRMck1hXXYUR1YG9TWUrZCffGAYrdSZdkAxTnsHFWhcdGDBe4ULJENoo3WoW0GUxaZt0ovux8EvhcoIrfZg==",
+            "shasum": "e93578ed45008527d694a546a1b1c15a3dec786d",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.9.tgz",
+            "fileCount": 26,
+            "unpackedSize": 14809,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIAkXy7Tg1OGuXbyvRmxsFaFlUdwCBWVxrs9l7FOWeMS0AiAgzsMmhmic/mSn4t5fnq7JOPqmDVTEY0PQuhAiI0jxIw=="
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.10": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.10",
+          "dependencies": {
+            "@vuepress/helper": "~2.0.0-rc.10",
+            "@vueuse/core": "^10.7.2",
+            "vue": "^3.4.15"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.5"
+          },
+          "dist": {
+            "integrity": "sha512-coAP02vCV++ZbqsXXKL6JAwaeRqlxGNd8iKR66LJ+7WafMOV65LSbLW+SxfGTAA1iuzATYFGld8TqKZTlLQsYQ==",
+            "shasum": "f2391d5ce6ee070bddab0b7fcea7add6ab1067aa",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.10.tgz",
+            "fileCount": 26,
+            "unpackedSize": 14756,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQCBamg2szFqts3toBFLFYra0AE7yxim8UVLkZ70d50kiAIhAOuj7sAj7P43CVPo+X1J/o3iOm/RowBtolj2/82aAWy9"
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.11": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.11",
+          "dependencies": {
+            "@vuepress/helper": "~2.0.0-rc.11",
+            "@vueuse/core": "^10.7.2",
+            "vue": "^3.4.15"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.6"
+          },
+          "dist": {
+            "integrity": "sha512-vYfsx/T2Z/cYcnSPAxnapKg2JcS8Pv52aGB2koXx1B6lb21rISxZKYwvmd8agioIGcqwKxdoEf1DyBU9lIAmAQ==",
+            "shasum": "4b3bfea9abc3e8bda39320472c3112d13cb0f4e7",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.11.tgz",
+            "fileCount": 26,
+            "unpackedSize": 14756,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIBhkmcGP26CVd3V1syvhs2HK6SpYb9wKgZMj/vX73RBbAiEA5i19DDQ3V5ZMTPHTfWw05F86wLPVacJAWMZ9EgUxjCQ="
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.12": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.12",
+          "dependencies": {
+            "@vuepress/helper": "~2.0.0-rc.12",
+            "@vueuse/core": "^10.7.2",
+            "vue": "^3.4.15"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.7"
+          },
+          "dist": {
+            "integrity": "sha512-6FELMaKsaQ/hjPom8VjTC5N9QKdtCLrHLeSz2D2z16+9rnbkAfootEH1T08GN3/PyP2ZZA8OqCPvaNAKiCKGiQ==",
+            "shasum": "2dd99082edafe9183e73c07d78106be32284be3c",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.12.tgz",
+            "fileCount": 32,
+            "unpackedSize": 15606,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQD3yxhuLXpFo+btiP8Xvwnc1IP97gtA/d9O04w9Q8rVLQIgAvd+FxfMouMeP1sJEZOtE7naCF3EFZSo3TaJSa5yuh8="
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.14": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.14",
+          "dependencies": {
+            "@vuepress/helper": "~2.0.0-rc.14",
+            "@vueuse/core": "^10.7.2",
+            "vue": "^3.4.16"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.7"
+          },
+          "dist": {
+            "integrity": "sha512-qiLdCEmHNhdE+IhsN/YPpzA3SSZgH6m8L1Q+mwLueYFlBIW8tIdXAi5UTgKWLavJOoIFZGvqKWy0jRBCBfIopQ==",
+            "shasum": "9b25e2bc71ca5d28c8ed88934d0490bd17fb9b12",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.14.tgz",
+            "fileCount": 32,
+            "unpackedSize": 15606,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQDTigB+FaLC4r7i4hGEJlAC00FYBeA2oyUsEM4x5WYcIgIhAPSe0EdFO4/PBQyJ2tdd0JraQbj6xXx1tPcDq4LCuMjb"
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.15": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.15",
+          "dependencies": {
+            "@vuepress/helper": "~2.0.0-rc.15",
+            "@vueuse/core": "^10.7.2",
+            "vue": "^3.4.19"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.8"
+          },
+          "dist": {
+            "integrity": "sha512-qUTk6WL8BaziZ/M3J9e//V59hKnkG2vrN28ddiNNCFydCtEcum2zAXRTA3fh5z+s+vfFhniwhrmKcGmSPoPSJw==",
+            "shasum": "820b55b0d2b7f0532e2283780929ba6fb50d8c05",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.15.tgz",
+            "fileCount": 32,
+            "unpackedSize": 15613,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQCtHYmg9mNb1/AqqUqlUWRvwGYQ7nZ59mHPRY4r8KqP8gIhANmXB5NKCPGS4UQjQVBgkuXZ5tRhjiHNE6wr4pw9thYB"
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.17": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.17",
+          "dependencies": {
+            "@vuepress/helper": "~2.0.0-rc.17",
+            "@vueuse/core": "^10.8.0",
+            "vue": "^3.4.19"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.8"
+          },
+          "dist": {
+            "integrity": "sha512-QYRMRNsNpsC7DQKQOcIICCos6f6XySYOyQhv9z9hJO65CjPVDkJLkKh/ZBGFBjm4rrw/LzRlOBKkk+PjZ1qO+g==",
+            "shasum": "86a72a0bcb1860a98244bb498036e0bae3437e04",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.17.tgz",
+            "fileCount": 32,
+            "unpackedSize": 15644,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQDbPjipUDe8PoEGFa1Fid16H7GPHuxLGnnmm7znZDv5VAIgJJRLqYre+lR4n3WA5ZtkreflCcfeer6yv/GrH6akwQE="
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.18": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.18",
+          "dependencies": {
+            "@vuepress/helper": "~2.0.0-rc.18",
+            "@vueuse/core": "^10.9.0",
+            "vue": "^3.4.21"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.8"
+          },
+          "dist": {
+            "integrity": "sha512-9gAhPVn2dyFnpIWZzHVQdE8iNXZQP2C0x2oBbU23IW4AG66TXETS0iB1WYnffqpq7dBlzO/6MbeiORtZqdHshA==",
+            "shasum": "6dd07f491a1ed787b58024d2d061f9c3eb63c91f",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.18.tgz",
+            "fileCount": 32,
+            "unpackedSize": 15510,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIEYNmC2aomsvLFDV0zJ5YHr2+bhKaozoX7ZJpkEsfYvzAiBb+I06pgi2F/bR0MUsxR3IbmXg7Msd+9Zu2/cE4I2WaA=="
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.19": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.19",
+          "dependencies": {
+            "@vuepress/helper": "~2.0.0-rc.19",
+            "@vueuse/core": "^10.9.0",
+            "vue": "^3.4.21"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.8"
+          },
+          "dist": {
+            "integrity": "sha512-V85jVkTk5kjZ6LaXbudqBxdRy8Mqc8k7EN+Os3RIhUMBdHwgDkmTmS1QM6eOlKK19Yaw7MHtPFYS7NR262XnPQ==",
+            "shasum": "394e425c9267622d69c57092442d1e3dabe64242",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.19.tgz",
+            "fileCount": 32,
+            "unpackedSize": 15510,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQDLguJ+KekKUa+lM0NoagKFLB09AtvNNDHQOqAGmuYt+QIhAMZOp3/R64E29Iw0CkW4D2pdFn6NEX+EIn1p9y5Ve4MU"
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.21": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.21",
+          "dependencies": {
+            "@vuepress/helper": "~2.0.0-rc.21",
+            "@vueuse/core": "^10.9.0",
+            "vue": "^3.4.21"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.9"
+          },
+          "dist": {
+            "integrity": "sha512-280jsPmI/YeKBnXt/MCw/nrv9pUou+zhHK5mOU3ecVYfY7Pu2Xi1zdZ2kK0Ri02Txm5AwLb5YWeSac349JuUUA==",
+            "shasum": "30a62da5294ef7588b1155414caace871b448830",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.21.tgz",
+            "fileCount": 32,
+            "unpackedSize": 15510,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQCe9+o0Y34vj7sygNIwiepPZbJFbSjOg671VZSl/XlE/gIgK2KrsiXH51NKM66gFhZM9DejmO5PBm8rY8CJOEj3qNQ="
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.22": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.22",
+          "dependencies": {
+            "@vuepress/helper": "~2.0.0-rc.22",
+            "@vueuse/core": "^10.9.0",
+            "vue": "^3.4.21"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.9"
+          },
+          "dist": {
+            "integrity": "sha512-KfnejqG7O74Fo4GkELCJxj4yvLsJvkjTXgtvibzRhgPbQZDSoL6KyIc42mFBEQQPsT4i75B6bBKHiqasYwzUvw==",
+            "shasum": "8d4fffa9eb887149fc9c8ee8c99e82a6d4465afd",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.22.tgz",
+            "fileCount": 32,
+            "unpackedSize": 15510,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIBIYOQRi1BlY8ZgBHBfoShYLrXsu72kJepm9ikmDKL/aAiEAofe96UwQcMGHpwYizBky/oYSBq5WyrOrAQskiaABsmI="
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.23": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.23",
+          "dependencies": {
+            "@vuepress/helper": "~2.0.0-rc.23",
+            "@vueuse/core": "^10.9.0",
+            "vue": "^3.4.21"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.9"
+          },
+          "dist": {
+            "integrity": "sha512-KBq394svgsqhQuQD/AXdZ3+ClBr5+t/VqF+bA/gUzEQASsw4WFIKJ9kOFZlp20vJZtSGT0faZ07Afv78nO60jw==",
+            "shasum": "17e8b721e07125b44a3349d6edeee3ccc188d812",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.23.tgz",
+            "fileCount": 32,
+            "unpackedSize": 15510,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIFLGNZqwm6dXIaLrIkaxzn7nHLY1tJqgA4o2NNa5fZpOAiAhtAGNSC04H+vjcy2fNTI/w9rC0ZykSbZlNXHqA+Zfgg=="
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.24": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.24",
+          "dependencies": {
+            "@vuepress/helper": "~2.0.0-rc.24",
+            "@vueuse/core": "^10.9.0",
+            "vue": "^3.4.21"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.9"
+          },
+          "dist": {
+            "integrity": "sha512-anLxeQqTiU+LNdEBK7EUbeIcU0YEh6x9Bs9SQV4wrdFKjYc5x2U4Gf9l9NagOSf1e3c0QZRYL3wLQ5q3XZnGjA==",
+            "shasum": "7ab4cde3c58388c412177969931ddec6c37c895c",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.24.tgz",
+            "fileCount": 32,
+            "unpackedSize": 15510,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIDm5YemIKBrP9tltEFZIDQQKD1r7YKctasEShCaWF4zFAiEA0eVs4U6VaoHDnPt7mhiqIuaUBPvj9vKxCWpXLyfQJ9g="
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.26": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.26",
+          "dependencies": {
+            "@vuepress/helper": "~2.0.0-rc.26",
+            "@vueuse/core": "^10.9.0",
+            "vue": "^3.4.23"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.9"
+          },
+          "dist": {
+            "integrity": "sha512-kYb0t49cvhJHYam03OSt5bq7mKUaWKU6ko5jex/C6kjEsuSusCWdY7pnJ4PXl63/umFcdJPfTvtaZfbJE5SAHA==",
+            "shasum": "c8dedb616098ab712d9fb8ea20a19ed31a90c090",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.26.tgz",
+            "fileCount": 33,
+            "unpackedSize": 15577,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQCGd893TRWm9dp8q+oIMp4rC799VI4qT6r27lTi6uQqxgIhANwQoNw66EpHgNyrZOqq8DvEqN5XTBN9ITWZGaJU2flB"
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.27": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.27",
+          "dependencies": {
+            "@vuepress/helper": "~2.0.0-rc.27",
+            "@vueuse/core": "^10.9.0",
+            "vue": "^3.4.26"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.9"
+          },
+          "dist": {
+            "integrity": "sha512-rYAmB7M0qgxwUltSAwSKjiwato0BeERcVZobljvq+hmqgtF+YGk4KWf083EelRcMfSfxF8azFV7I7Tw7kMoqpw==",
+            "shasum": "6557f402b67bf7add4e0abe973e8d32afca3ef39",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.27.tgz",
+            "fileCount": 33,
+            "unpackedSize": 15577,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQDh59Ic+TTog/rKfgaLju98KCD1jkIEigJYyjrSc8NOXgIgKYmFFxZEEnBKxgjDdbublAlRx1Ow7L/kUBGut8fXjQk="
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.28": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.28",
+          "dependencies": {
+            "@vuepress/helper": "~2.0.0-rc.28",
+            "@vueuse/core": "^10.9.0",
+            "vue": "^3.4.27"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.9"
+          },
+          "dist": {
+            "integrity": "sha512-QnSF/pnUOoGToRmAoagVuyXXWBnpNc3xYC/LEG5TmnewhXwYg0HVE4BTSCcH1AyvjYNRSMHfct1Vbwd63dF9EQ==",
+            "shasum": "1390c1491ed4d3216924e25bf5193d07b7b84b9e",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.28.tgz",
+            "fileCount": 33,
+            "unpackedSize": 15496,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIDKLUgmLalfYMdZHiADBF56uBvRFwLYx7aok6O8Js02KAiBS8Psq50LbTLf6HOKBF5dxZ+qRLHnN7AI+plRJeF+4nw=="
+              }
+            ]
+          }
+        },
+        "2.0.0-rc.30": {
+          "name": "@vuepress/plugin-copy-code",
+          "version": "2.0.0-rc.30",
+          "dependencies": {
+            "@vuepress/helper": "~2.0.0-rc.30",
+            "@vueuse/core": "^10.9.0",
+            "vue": "^3.4.27"
+          },
+          "devDependencies": {
+            "sass": "^1.77.1"
+          },
+          "peerDependencies": {
+            "vuepress": "2.0.0-rc.11"
+          },
+          "dist": {
+            "integrity": "sha512-KtuaTNk1miieXLhsJroLn1+LRoC7a4kmPiG0YZFmxjVnmi+OylX6t2kgPMaaf9lNRSRjqiv5fHwkCWhurV+UZQ==",
+            "shasum": "81c50400d1c154b99595f7f4ab19aee7c2e5a52e",
+            "tarball": "https://registry.npmjs.org/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.30.tgz",
+            "fileCount": 33,
+            "unpackedSize": 15547,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCICIeOrVJRNlbn5v6q9wKiDJWMtti67ItHAgBzYrqQtzqAiBuy4GXV2LtTKj85r5892+i0DPz5EWK6OjZRHPDlpY57w=="
+              }
+            ]
+          }
+        }
+      },
+      "modified": "2024-05-16T18:09:29.109Z",
+      "cachedAt": 1716526740297
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "Error",
+      "message": "No matching version found for @vuepress/plugin-copy-code@s2.0.0-rc.6",
+      "code": "ERR_PNPM_NO_MATCHING_VERSION",
+      "stack": "Error: No matching version found for @vuepress/plugin-copy-code@s2.0.0-rc.6\n    at resolveNpm (C:\\Users\\Benjamin\\.node\\corepack\\pnpm\\6.11.0\\dist\\pnpm.cjs:79795:15)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Object.resolve (C:\\Users\\Benjamin\\.node\\corepack\\pnpm\\6.11.0\\dist\\pnpm.cjs:79961:34)\n    at async run (C:\\Users\\Benjamin\\.node\\corepack\\pnpm\\6.11.0\\dist\\pnpm.cjs:66046:23)"
+    }
+  }
+}

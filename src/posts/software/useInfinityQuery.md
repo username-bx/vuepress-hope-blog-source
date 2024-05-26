@@ -2,6 +2,8 @@
 
 
 
+# 使用 vue-query 中的 useInfinityQuery 实现滚动请求
+
 ```vue
 
 
@@ -136,51 +138,32 @@ watch(scrollRef, () => {
         :key="index" class="border rounded-lg"
       >
         <div class="p-4 bg-slate-50 text-black text-base font-medium flex justify-between">
-          <span>{{ item.roomName }}</span>
+          <span>{{ item.id }}</span>
         </div>
         <div class="p-4 flex flex-col gap-2">
           <div class="grid gap-4 grid-cols-2">
             <div class="grid gap-1 grid-cols-2">
               <span class="text-stone-500 w-16">xxxx</span>
-              <span>{{ item.gameId }}期</span>
+              <span>{{ item.aaa }}</span>
             </div>
             <div class="grid gap-1 grid-cols-2">
               <span class="text-stone-500">xxxx</span>
-              <span>{{ sides[item.side] }}</span>
+              <span>{{ item.bbb }}</span>
             </div>
           </div>
           <div class="grid gap-4 grid-cols-2">
             <div class="grid gap-1 grid-cols-2">
               <span class="text-stone-500 w-16">xxxx</span>
-              <span>{{ item.gameBetSmallType }}</span>
+              <span>{{ item.ccc }}</span>
             </div>
             <div class="grid gap-1 grid-cols-2">
               <span class="text-stone-500">xxx</span>
-              <span>{{ getRealMoney(item.betPoints, 0) }}</span>
-            </div>
-          </div>
-          <div class="grid gap-4 grid-cols-2">
-            <div class="grid gap-1 grid-cols-2">
-              <span class="text-stone-500 w-16">xxx</span>
-              <span>{{ item.flyType ? '自动' : '手动' }}</span>
-            </div>
-            <div class="grid gap-1 grid-cols-2">
-              <span class="text-stone-500">xxx</span>
-              <span :class="`${Number(getRealMoney(item.winLose, 0)) >= 0 ? 'text-green-500' : 'text-red-500'}`">{{
-                getRealMoney(item.winLose) }}</span>
+              <span>{{ getRealMoney(item.ddd, 0) }}</span>
             </div>
           </div>
           <div class="flex gap-2">
             <span class="text-stone-500 w-16">xxx</span>
-            <span>{{ item.createTime }}</span>
-          </div>
-          <div class="flex gap-2">
-            <span class="text-stone-500 w-16">xxx</span>
-            <span>{{ getBetTypeName(item.gameType, item.roomId, item.betType, false) }}</span>
-          </div>
-          <div class="flex gap-2">
-            <span class="text-stone-500 w-16">xxx</span>
-            <span>{{ item.odds }}</span>
+            <span>{{ item.xxx }}</span>
           </div>
         </div>
       </li>

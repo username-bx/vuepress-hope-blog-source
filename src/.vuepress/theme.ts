@@ -58,6 +58,8 @@ export default hopeTheme({
 
   displayFooter: true,
 
+  
+
   blog: {
     // 博主姓名
     name: 'Tang Yuan',
@@ -112,6 +114,9 @@ export default hopeTheme({
   },
 
   plugins: {
+
+    
+
     blog: true,
 
     // install @waline/client before enabling it

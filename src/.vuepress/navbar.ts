@@ -31,6 +31,7 @@ export default navbar([
     icon: "folder",
     prefix: "/posts/react/",
     children: [
+      { text: "体验react", icon: "pen-to-square", link: "experience" },
       { text: "React搭建环境", icon: "pen-to-square", link: "env" },
     ]
   },

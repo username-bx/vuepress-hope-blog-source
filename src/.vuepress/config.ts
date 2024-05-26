@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
+// import { copyCodePlugin } from '@vuepress/plugin-copy-code';
 
 import { getDirname, path } from "@vuepress/utils";
 const __dirname = getDirname(import.meta.url);
@@ -32,5 +33,9 @@ export default defineUserConfig({
       id: "G-R1WPVQFH8L",
       debug: true,
     }),
+    // copyCodePlugin({
+    //   // options
+    //   showInMobile: true
+    // }),
   ]
 });
