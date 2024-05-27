@@ -1,6 +1,5 @@
-
 ---
-title: git头像在vscode中
+title: 在 vscode 中,设置 git 头像
 shortTitle: gitlens
 image: /assets/images/navicat.png
 icon: pen-to-square
@@ -16,7 +15,7 @@ head:
 ---
 
 
-
+# 在 vscode 中,设置 git 头像
 
 
 ```shell
