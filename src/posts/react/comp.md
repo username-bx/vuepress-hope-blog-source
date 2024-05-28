@@ -25,7 +25,7 @@ head:
 1. 函数组件
 
 1. 函数名用于组建虚拟 dom 树.可以是匿名函数,dom 树的节点为unknow
-2. **函数名必须是大驼峰**
+2. **函数名必须是大驼峰** (本质是更改 React 元素对象的 type 如果是小写，认为是一个普通的react元素，而不是react组件)
 3. 返回一个 React 元素对象
 
 
@@ -72,7 +72,7 @@ class MyClassComp extend Component() {
 
 
 
-## 2. 组件的使用
+## 3. 组件的使用
 
 
 1. 函数执行的方式
@@ -124,10 +124,10 @@ function App () {
 
 ```
 
-## 组件的属性
+## 4. 组件的属性
 
 1. 对于函数组件，属性会作为一个对象的属性，传递给函数的参数
-2. 对于类组件，属性会作为一个对象的属性，传递给构造函数的参数
+2. 对于类组件，属性会作为一个对象的属性，传递给构造函数(constructor)的参数
 
 注意：组件的属性，应该使用小驼峰命名法
 
@@ -141,7 +141,8 @@ export default function MyFuncComp(props) {
     return <h1>函数组件，目前的数字：{props.number}</h1>
 }
 
-
+```
+```js
 
 // App.jsx
 export default function App () {
@@ -207,3 +208,7 @@ export default function App () {
 }
 
 ```
+
+## 5. 组件中的数据
+
+数据属于谁(哪个组件)，(那个组件)谁有权利可以更改。

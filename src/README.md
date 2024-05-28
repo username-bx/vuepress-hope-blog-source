@@ -13,6 +13,13 @@ headline: blog home
 url: /
 description: blog home fontend web record website
 projects:
+
+  - icon: article
+    name: react
+    desc: learn react
+    link: http://
+
+
   - icon: project
     name: 第一版的博客
     desc: vueprss 1.0 搭建的简单博客

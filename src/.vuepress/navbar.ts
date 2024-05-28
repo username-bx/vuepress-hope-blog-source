@@ -33,7 +33,12 @@ export default navbar([
     prefix: "/posts/react/",
     children: [
       { text: "体验react", icon: "pen-to-square", link: "experience" },
-      { text: "React搭建环境", icon: "pen-to-square", link: "env" },
+      { text: "React 搭建环境", icon: "pen-to-square", link: "env" },
+      { text: "React extensions", icon: "pen-to-square", link: "extensions" },
+      { text: "React jsx", icon: "pen-to-square", link: "jsx" },
+      { text: "React comp", icon: "pen-to-square", link: "comp" },
+      { text: "React state", icon: "pen-to-square", link: "state" },
+      { text: "React event", icon: "pen-to-square", link: "event" },
     ]
   },
   {
