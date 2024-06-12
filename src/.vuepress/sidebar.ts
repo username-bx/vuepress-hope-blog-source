@@ -22,6 +22,12 @@ export default sidebar({
       children: "structure",
     },
     {
+      text: "Vue",
+      icon: "laptop-code",
+      prefix: "posts/vue3",
+      children: "structure",
+    },
+    {
       text: "vuepress1.0",
       icon: "book",
       prefix: "posts/vuepress",

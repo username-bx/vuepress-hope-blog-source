@@ -51,6 +51,16 @@ export default navbar([
     ]
   },
   {
+    text: "vue3",
+    icon: "folder",
+    prefix: "/posts/vue3/",
+    children: [
+      { text: "vite", icon: "pen-to-square", link: "1" },
+      { text: "reactivity", icon: "pen-to-square", link: "2" },
+      { text: "composition", icon: "pen-to-square", link: "3" },
+    ]
+  },
+  {
     text: "博文",
     icon: "newspaper",
     prefix: "/posts/",
