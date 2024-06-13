@@ -29,7 +29,7 @@ export default navbar([
   },
   {
     text: "React",
-    icon: "folder",
+    icon: "layer-group",
     prefix: "/posts/react/",
     children: [
       { text: "体验react", icon: "pen-to-square", link: "experience" },
@@ -43,7 +43,7 @@ export default navbar([
   },
   {
     text: "React Native",
-    icon: "folder",
+    icon: "fa-react",
     prefix: "/posts/reactNative/",
     children: [
       { text: "React Native搭建环境", icon: "pen-to-square", link: "env" },
@@ -52,7 +52,7 @@ export default navbar([
   },
   {
     text: "vue3",
-    icon: "folder",
+    icon: "chalkboard",
     prefix: "/posts/vue3/",
     children: [
       { text: "vite", icon: "pen-to-square", link: "1" },
