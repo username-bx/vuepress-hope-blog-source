@@ -1,0 +1,121 @@
+---
+title: docker 常用命令, 安装 mongo
+shortTitle: docker
+icon: pen-to-square
+date: 2024-08-11
+order: 6
+tag: 
+  - docker
+auther: Tang Yuan
+head:
+  - - meta
+    - name: keywords
+      content: docker
+---
+
+# docker
+
+## centos7安装Docker全过程记录
+
+1.查看当前的内核版本
+
+```shell
+uname -r
+# 我这里是3.10 ，满足条件。
+```
+2. 安装需要的软件包， yum-util 提供yum-config-manager功能，另两个是devicemapper驱动依赖1.安装需要的软件包， yum-util 提供yum-config-manager功能，另两个是devicemapper驱动依赖
+
+```shell
+yum install -y yum-utils device-mapper-persistent-data lvm2
+```
+
+3. 设置 yum 源 (设置一个yum源，下面两个都可用)
+
+```shell
+yum-config-manager --add-repo http://download.docker.com/linux/centos/docker-ce.repo（中央仓库）
+
+yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo（阿里仓库）
+
+```
+
+4. 查看可用版本有哪些
+
+```shell
+yum list docker-ce --showduplicates | sort -r
+```
+
+5. 选择一个版本并安装：yum install docker-ce-版本号
+
+```shell
+yum -y install docker-ce-18.03.1.ce
+```
+
+## docker 常用命令
+
+```shell
+  docker version
+  # 检查 client server
+  # windos 双击exe 启动
+  # centent systemctl start docker
+```
+Dockerfile 文件编写
+
+```shell
+# FROM：表示新建的iamge（镜像）需要在node环境中进行，那么就需要node镜像。
+# WORKDIR：声明了工作目录`/app`，即node代码在该目录下进行
+# COPY：作用是，将当前目录的所有代码都复制到工作目录下
+# RUN shell 命令
+# CMD：后面跟着一句shell 命令
+FROM node:20-alpine
+COPY . /
+RUN npm install
+CMD ["node", "index.js"]
+
+```
+
+```shell
+
+docker build -t my-docker-demo:1.0 .
+
+```
+
+```shell
+
+docker run <name:version>
+
+```
+查询本机正在的容器
+
+```shell
+docker ps -a
+docker stop <container_id>
+docker start <container_name>
+
+```
+
+查看容器 镜像 删除容器 删除镜像
+
+```shell
+docker container ls -a
+docker image ls
+
+docker rm <container_id> docker container rm <container_id>
+
+docker rmi <image_id> docker image rm <image_id>
+```
+
+## docker 安装 mongo
+
+1. 拉取 MongoDB Docker 映像
+
+```shell
+docker pull mongodb/mongodb-community-server:latest
+```
+
+2. 将映像作为 container 运行
+
+```shell
+docker run --name mongodb -p 27017:27017 -d mongodb/mongodb-community-server:latest
+```
+
+>> 此命令中的 -p 27017:27017 会将容器端口映射到主机端口。这样即可使用一个 localhost:27017 连接字符串连接到 MongoDB。
