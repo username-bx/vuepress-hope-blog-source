@@ -110,6 +110,7 @@ docker rmi <image_id> docker image rm <image_id>
 1. 拉取 MongoDB Docker 映像
 
 ```shell
+docker pull mongo
 docker pull mongodb/mongodb-community-server:latest
 ```
 
@@ -123,21 +124,62 @@ docker run --name mymongo -p 27017:27017 -d -v /usr/data/mongo:/data/db mongo:la
 
 >> 此命令中的 -p 27017:27017 会将容器端口映射到主机端口。这样即可使用一个 localhost:27017 连接字符串连接到 MongoDB。
 
+>> 此命令中的 -v 映射容器中的文件到本地
+
 3. 进入 mongo 容器
 
 ```shell
 docker exec -it <container_id> bash
+
 ```
 
 4. 使用 mongosh
 
 ```shell
-cd ./sbin
+cd ./bin
 ./mongosh
 
 use admin
-db.createUser({ user: "root", pwd: "root123", roles: [{ role: "readWrite", db: "lineDB" }] })
+db.auth("xx","xx")
+
 db.createUser({ user: "useradmin", pwd: "adminpassword", roles: [{ role: "userAdminAnyDatabase", db: "admin" }] })
 db.updateUser('root', {pwd: "root123", roles: [{ role: "readWrite", db: "lineDB" },{ role: "readWrite", db: "tgDB" }] })
+
+```
+
+5. 使用 mongodump 备份
+
+```shell
+cd ./bin
+./mongodump --host=xx.xx.xx.xx --port=27011 --username=root --password=root123 --out=/usr/backup/mongodump-1
+```
+
+6. 使用 docker -p 复制文件到本地目录
+
+```shell
+docker -p <container_id>:/usr/backup /usr/data/mongo
+```
+
+
+
+## 使用 docker 部署nodejs
+
+1. 切换路径
+```shell
 cd /usr/share/nginx/lineBotWebhook/
 ```
+
+2. 构建镜像 build images
+
+```shell
+docker -build -t <image_name>:<version> .
+```
+
+3. 根据镜像 运行实例
+
+```shell
+docker run --name <container_name> -p 4100:4100 -d <image_name>:<version>
+```
+>> --name 给容器实例设置名称
+>> -p 映射端口号
+>> -d 后台运行容器
