@@ -83,6 +83,7 @@ docker build -t my-docker-demo:1.0 .
 
 docker run <name:version>
 
+docker run --name <xxx> -p 3000:3000 -d <name:version>
 ```
 查询本机正在的容器
 
@@ -116,6 +117,27 @@ docker pull mongodb/mongodb-community-server:latest
 
 ```shell
 docker run --name mongodb -p 27017:27017 -d mongodb/mongodb-community-server:latest
+
+docker run --name mymongo -p 27017:27017 -d -v /usr/data/mongo:/data/db mongo:latest --auth
 ```
 
 >> 此命令中的 -p 27017:27017 会将容器端口映射到主机端口。这样即可使用一个 localhost:27017 连接字符串连接到 MongoDB。
+
+3. 进入 mongo 容器
+
+```shell
+docker exec -it <container_id> bash
+```
+
+4. 使用 mongosh
+
+```shell
+cd ./sbin
+./mongosh
+
+use admin
+db.createUser({ user: "root", pwd: "root123", roles: [{ role: "readWrite", db: "lineDB" }] })
+db.createUser({ user: "useradmin", pwd: "adminpassword", roles: [{ role: "userAdminAnyDatabase", db: "admin" }] })
+db.updateUser('root', {pwd: "root123", roles: [{ role: "readWrite", db: "lineDB" },{ role: "readWrite", db: "tgDB" }] })
+cd /usr/share/nginx/lineBotWebhook/
+```
