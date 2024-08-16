@@ -21,9 +21,9 @@ projects:
 
 
   - icon: project
-    name: 第一版的博客
-    desc: vueprss 1.0 搭建的简单博客
-    link: http://v1.luogesidoc.com
+    name: 留言板
+    desc: nodejs + mongo 搭建的简易留言板
+    link: http://yl.luogesidoc.com
 
   # - icon: link
   #   name: 链接名称

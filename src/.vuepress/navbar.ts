@@ -8,6 +8,8 @@ export default navbar([
     icon: "folder",
     prefix: "/posts/software/",
     children: [
+      { text: "docker", icon: "pen-to-square", link: "docker" },
+      { text: "mongo", icon: "pen-to-square", link: "mongo" },
       { text: "git 头像 gitlens 头像", icon: "pen-to-square", link: "gitlen" },
       { text: "nginx 重启 linux 关闭防火墙", icon: "pen-to-square", link: "nginx" },
       { text: "查看端口占用 windows", icon: "pen-to-square", link: "netstat" },
