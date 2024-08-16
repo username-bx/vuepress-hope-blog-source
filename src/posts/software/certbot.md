@@ -29,3 +29,39 @@ certbot certonly --standalone -d example.com -d www.example.com
 证书生成完毕后，我们可以在 /etc/letsencrypt/live/ 目录下看到对应域名的文件夹，里面存放了指向证书的一些快捷方式。
 
 4. Nginx 配置启用 HTTPS
+
+
+
+
+
+
+1. centOS 安装
+
+sudo yum install epel-release
+sudo yum install certbot-nginx
+
+2. 停止您的 Web 服务器服务 否则你会得到以下错误
+
+Problem binding to port 80: Could not bind to IPv4 or IPv6
+
+3. 继续生成 Let’s Encrypt 免费 SSL 证书：
+
+certbot certonly --standalone --preferred-challenges http -d my-domain.com -d www.my-domain.com
+
+>> -d 选项采用域名。您可以-d在单个命令中使用多个选项。例如
+
+4. 如果这是您第一次运行 certbot，系统会提示您输入电子邮件地址并同意服务条款。执行此操作后， certbot 将与 Let’s Encrypt 服务器通信，然后运行质询以验证您是否控制要为其申请证书的域。
+
+如果成功，certbot 将显示一条消息，告诉您该过程已成功以及您的证书存储在何处
+
+5. 列出您保存在/etc/letsencrypt/live/my-domain.com 目录中的证书 。
+
+6. 为了让您的Web 服务器使用 Let’s Encrypt 免费 SSL 证书，您需要在其配置中指定它们。例如，如果您使用 Nginx，则需要将以下块添加到您的域配置文件中/etc/nginx/sites-enabled/my-domain.conf
+
+server {
+    listen 443;
+    server_name my-domain.com;
+    ssl on;
+    ssl_certificate /etc/letsencrypt/live/my-domain.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/my-domain.com/privkey.pem;
+}
