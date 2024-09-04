@@ -1,5 +1,5 @@
 ---
-title: Navicat 重置试用期 图形化数据库管理及发展软件
+title: Navicat 重置试用期 图形化数据库管理及发展软件, navicat重置yaaet期
 shortTitle: navicat reset
 image: /assets/images/navicat.png
 icon: pen-to-square
@@ -40,4 +40,15 @@ echo Finish
 pause
 
 
+```
+
+
+## Mac Navicat
+
+```shell
+/usr/libexec/PlistBuddy -c "Delete :014BF4EC24C114BEF46E1587042B3619" ~/Library/Preferences/com.navicat.NavicatPremium.plist
+/usr/libexec/PlistBuddy -c "Delete :91F6C435D172C8163E0689D3DAD3F3E9" ~/Library/Preferences/com.navicat.NavicatPremium.plist
+/usr/libexec/PlistBuddy -c "Delete :B966DBD409B87EF577C9BBF3363E9614" ~/Library/Preferences/com.navicat.NavicatPremium.plist
+
+rm -rf ~/Library/Application\ Support/PremiumSoft\ CyberTech/Navicat\ CC/Navicat\ Premium/.*
 ```
