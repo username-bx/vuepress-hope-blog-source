@@ -1,16 +1,16 @@
 ---
-title: certbot
-shortTitle: certbot
+title: mac blog shell
+shortTitle: my blog shell
 icon: pen-to-square
-date: 2024-08-15
+date: 2024-09-04
 order: 16
 tag: 
-  - certbot
+  - my blog shell
 auther: Tang Yuan
 head:
   - - meta
     - name: keywords
-      content: certbot
+      content: my blog shell
 ---
 
 
