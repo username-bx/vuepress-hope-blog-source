@@ -78,6 +78,12 @@ CMD ["node", "index.js"]
 docker build -t my-docker-demo:1.0 .
 
 ```
+使用 -f <file_name> 指定构建文件
+```shell
+
+docker build -t house:1.0 . -f Dockerfile.dev
+
+```
 
 ```shell
 
@@ -103,6 +109,16 @@ docker image ls
 docker rm <container_id> docker container rm <container_id>
 
 docker rmi <image_id> docker image rm <image_id>
+```
+
+保存镜像到压缩文件 加载压缩文件到docker镜像
+
+```shell
+
+docker save -o ~/Document/<file.name>.tar house:1.0
+
+docker load -i ~/Document/<file.name>.tar
+
 ```
 
 ## docker 安装 mongo
