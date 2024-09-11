@@ -58,3 +58,39 @@ unzip -o -d [目录名] [压缩包名]
 
 
 ```
+
+## 5. 上传本地文件到服务器
+
+```shell
+
+scp /path/index.html root@142.141.1.31:/usr/local/nginx/html/ 
+
+
+```
+
+## 6. 从服务器上下载文件
+
+```shell
+
+scp root@142.141.1.31:/usr/local/nginx/html/index.html ~/Document/ 本地目录
+
+
+```
+
+## 7. 上传本地文件到服务器
+
+```shell
+
+scp  -r local_dir root@142.141.1.31:/usr/local/nginx/html/
+
+```
+
+## 8. 从服务器下载整个目录
+
+```shell
+
+
+scp -r root@142.141.1.31:/usr/local/nginx/html/ ~/Document/ 本地目录
+
+
+```

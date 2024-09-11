@@ -18,7 +18,7 @@ head:
 # build
 
 
- ```shell
+```shell
 
 rm -rf /Users/benjaminma/Documents/vuepress-hope-blog/*
 
@@ -32,4 +32,12 @@ git commit -m ''
 
 git push
 
- ```
+```
+
+## 复制
+
+```shell
+
+cp -a ~/Documents/vuepress-hope-blog-source/src/.vuepress/dist/ ~/Documents/vuepress-hope-blog/
+
+```
