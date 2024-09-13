@@ -4,7 +4,7 @@ shortTitle: navicat reset
 image: /assets/images/navicat.png
 icon: pen-to-square
 date: 2023-10-23
-order: 2
+order: 5
 tag: 
   - Navicat
 auther: Tang Yuan

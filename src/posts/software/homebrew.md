@@ -1,4 +1,17 @@
-
+---
+title: mac安装homebrew
+shortTitle: brew jdk
+icon: pen-to-square
+date: 2024-09-04
+order: 23
+tag: 
+  - homebrew
+auther: Tang Yuan
+head:
+  - - meta
+    - name: keywords
+      content: homebrew
+---
 
 # homebrew
 

@@ -2,8 +2,8 @@
 title: mac blog shell
 shortTitle: my blog shell
 icon: pen-to-square
-date: 2024-09-04
-order: 16
+date: 2024-09-10
+order: 18
 tag: 
   - my blog shell
 auther: Tang Yuan

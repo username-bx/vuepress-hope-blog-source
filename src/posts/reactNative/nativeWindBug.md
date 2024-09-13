@@ -1,7 +1,7 @@
 ---
 title: NativeWind Bug The web platform does not word on windows
 shortTitle: nativewind reactnative
-icon: layer-group
+icon: file-code
 date: 2024-05-23
 tag:
   - react reactnative nativewind

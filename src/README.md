@@ -53,7 +53,7 @@ projects:
 footer: 汤圆随笔记录
 ---
 
-### 安装依赖
+<!-- ### 安装依赖
 
 ```
 // corepack enable
@@ -70,7 +70,7 @@ pnpm i
 
 npm run dev
 
-```
+``` -->
 
 <!-- 这是一个博客主页的案例。 -->
 

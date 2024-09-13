@@ -1,3 +1,21 @@
+---
+title: 组件
+shortTitle: react effect
+image: /assets/images/navicat.png
+icon: pen-to-square
+date: 2024-09-13
+order: 8
+tag: 
+  - react effect
+auther: Tang Yuan
+head:
+  - - meta
+    - name: keywords
+      content: react effect
+---
+
+
+
 [text](https://zh-hans.react.dev/learn/synchronizing-with-effects)
 
 

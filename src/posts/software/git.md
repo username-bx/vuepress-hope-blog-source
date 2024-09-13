@@ -3,6 +3,7 @@ title: git 常用命令
 shortTitle: git
 icon: pen-to-square
 date: 2024-05-23
+order: 4
 tag:
   - git
 auther: Tang Yuan

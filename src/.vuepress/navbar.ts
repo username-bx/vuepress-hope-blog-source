@@ -8,6 +8,14 @@ export default navbar([
     icon: "folder",
     prefix: "/posts/software/",
     children: [
+      { text: "homebrew", icon: "pen-to-square", link: "homebrew" },
+      { text: "jdk", icon: "pen-to-square", link: "jdk" },
+      { text: "util", icon: "pen-to-square", link: "UtilMethods" },
+      { text: "vscode 插件", icon: "pen-to-square", link: "vscodeExtensions" },
+      { text: "warp", icon: "pen-to-square", link: "warp" },
+      { text: "mac shell", icon: "pen-to-square", link: "buildAndCopy" },
+      { text: "certbot", icon: "pen-to-square", link: "certbot" },
+      { text: "nvm", icon: "pen-to-square", link: "nvm" },
       { text: "docker", icon: "pen-to-square", link: "docker" },
       { text: "mongo", icon: "pen-to-square", link: "mongo" },
       { text: "git 头像 gitlens 头像", icon: "pen-to-square", link: "gitlen" },
@@ -41,11 +49,19 @@ export default navbar([
       { text: "React comp", icon: "pen-to-square", link: "comp" },
       { text: "React state", icon: "pen-to-square", link: "state" },
       { text: "React event", icon: "pen-to-square", link: "event" },
+      { text: "React effect", icon: "pen-to-square", link: "useEffect" },
+    ]
+  },
+  {
+    text: "Nextjs",
+    icon: "ghost",
+    prefix: "/posts/nextjs/",
+    children: [
     ]
   },
   {
     text: "React Native",
-    icon: "fa-react",
+    icon: "shop",
     prefix: "/posts/reactNative/",
     children: [
       { text: "React Native搭建环境", icon: "pen-to-square", link: "env" },

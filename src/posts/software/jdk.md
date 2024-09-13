@@ -3,7 +3,7 @@ title: brew安装jdk
 shortTitle: brew jdk
 icon: pen-to-square
 date: 2024-09-04
-order: 16
+order: 22
 tag: 
   - brew jdk
 auther: Tang Yuan

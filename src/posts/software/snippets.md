@@ -3,6 +3,7 @@ title: VSCode 使用 Snippets 设置代码块
 shortTitle: VSCode Snippets
 icon: pen-to-square
 date: 2024-05-22
+order: 7
 tag: 
   - VSCode
 auther: Tang Yuan

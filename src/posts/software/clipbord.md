@@ -3,6 +3,7 @@ title: vue3中 实现复制到剪切板功能
 shortTitle: vue3 clipbord vue-use
 icon: pen-to-square
 date: 2024-05-23
+order: 9
 tag:
   - vue3 clipbord vue-use
 auther: Tang Yuan

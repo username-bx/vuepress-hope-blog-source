@@ -3,6 +3,7 @@ title: 查看端口占用 windows
 shortTitle: netstat
 icon: pen-to-square
 date: 2024-05-23
+order: 11
 tag:
   - netstat
 auther: Tang Yuan

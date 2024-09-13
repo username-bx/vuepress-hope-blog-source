@@ -2,9 +2,9 @@
 title: vscode插件
 shortTitle: vscode extensions
 image: /assets/images/navicat.png
-icon: folder-open
+icon: pen-to-square
 date: 2024-06-14
-order: 1
+order: 20
 tag: 
   - vscode extensions
 auther: Tang Yuan

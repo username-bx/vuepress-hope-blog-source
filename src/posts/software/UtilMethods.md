@@ -2,9 +2,9 @@
 title: 工具方法
 shortTitle: util method
 image: /assets/images/navicat.png
-icon: folder-open
+icon: pen-to-square
 date: 2024-06-14
-order: 1
+order: 21
 tag: 
   - util method
 auther: Tang Yuan

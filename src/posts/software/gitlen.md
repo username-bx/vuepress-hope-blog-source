@@ -4,7 +4,7 @@ shortTitle: gitlens
 image: /assets/images/navicat.png
 icon: pen-to-square
 date: 2024-05-25
-order: 4
+order: 13
 tag: 
   - gitlens vscode
 auther: Tang Yuan

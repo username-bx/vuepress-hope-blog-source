@@ -3,6 +3,7 @@ title: nginx 重启 linux 关闭防火墙
 shortTitle: nginx linux firewalld
 icon: pen-to-square
 date: 2024-05-23
+order: 12
 tag:
   - nginx linux firewalld
 auther: Tang Yuan

@@ -3,7 +3,7 @@ title: mongo
 shortTitle: mongo
 icon: pen-to-square
 date: 2024-08-15
-order: 6
+order: 14
 tag: 
   - mongo
 auther: Tang Yuan
