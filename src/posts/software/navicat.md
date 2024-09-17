@@ -1,7 +1,7 @@
 ---
 title: Navicat 重置试用期 图形化数据库管理及发展软件, navicat重置yaaet期
 shortTitle: navicat reset
-image: /assets/images/navicat.png
+cover: /assets/images/navicat.png
 icon: pen-to-square
 date: 2023-10-23
 order: 5
