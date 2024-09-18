@@ -1,6 +1,6 @@
 ---
 title: brew安装jdk
-shortTitle: brew jdk
+shortTitle: brew安装jdk
 icon: pen-to-square
 date: 2024-09-04
 order: 22

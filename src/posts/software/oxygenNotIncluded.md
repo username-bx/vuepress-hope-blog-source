@@ -1,9 +1,9 @@
 ---
 title: mac安装 oxygen
-shortTitle: brew jdk
+shortTitle: oxygen
 icon: pen-to-square
-date: 2024-09-04
-order: 23
+date: 2024-09-17
+order: 24
 tag: 
   -  oxygen
 auther: Tang Yuan

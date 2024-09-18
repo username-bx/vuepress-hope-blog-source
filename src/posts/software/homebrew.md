@@ -1,6 +1,6 @@
 ---
 title: mac安装homebrew
-shortTitle: brew jdk
+shortTitle: mac安装homebrew
 icon: pen-to-square
 date: 2024-09-04
 order: 23

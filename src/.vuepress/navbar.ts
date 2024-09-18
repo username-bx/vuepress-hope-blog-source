@@ -8,6 +8,7 @@ export default navbar([
     icon: "folder",
     prefix: "/posts/software/",
     children: [
+      { text: "oxygen", icon: "pen-to-square", link: "oxygenNotIncluded" },
       { text: "homebrew", icon: "pen-to-square", link: "homebrew" },
       { text: "jdk", icon: "pen-to-square", link: "jdk" },
       { text: "util", icon: "pen-to-square", link: "UtilMethods" },
