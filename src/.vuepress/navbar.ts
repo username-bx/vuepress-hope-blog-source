@@ -60,6 +60,10 @@ export default navbar([
     icon: "ghost",
     prefix: "/posts/nextjs/",
     children: [
+      { text: "1", icon: "pen-to-square", link: "1" },
+      { text: "i18n", icon: "pen-to-square", link: "i18n" },
+      { text: "主题", icon: "pen-to-square", link: "theme" },
+      { text: "时间", icon: "pen-to-square", link: "timeZone" },
     ]
   },
   {
