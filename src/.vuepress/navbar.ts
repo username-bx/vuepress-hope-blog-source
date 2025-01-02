@@ -8,8 +8,10 @@ export default navbar([
     icon: "folder",
     prefix: "/posts/software/",
     children: [
-      { text: "table 滚动", icon: "pen-to-square", link: "table" },
-      { text: "魔方", icon: "pen-to-square", link: "mofang" },
+      { text: "IDEA激活", icon: "pen-to-square", link: "idea" }, // 28
+      { text: "zod校验", icon: "pen-to-square", link: "zod" }, // 27
+      { text: "table 滚动", icon: "pen-to-square", link: "table" }, // 26
+      { text: "魔方", icon: "pen-to-square", link: "mofang" }, // 25
       { text: "oxygen", icon: "pen-to-square", link: "oxygenNotIncluded" },
       { text: "homebrew", icon: "pen-to-square", link: "homebrew" },
       { text: "jdk", icon: "pen-to-square", link: "jdk" },
