@@ -2,7 +2,7 @@
 title: IDEA激活
 shortTitle: IDEA激活
 icon: pen-to-square
-date: 2024-09-19
+date: 2025-01-02
 order: 28
 tag:
   - IDEA

@@ -2,7 +2,7 @@
 title: 在 nextjs 中使用 zod
 shortTitle: 在 nextjs 中使用 zod
 icon: pen-to-square
-date: 2024-09-19
+date: 2025-01-02
 order: 27
 tag:
   - zod

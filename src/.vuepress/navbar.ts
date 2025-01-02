@@ -106,6 +106,14 @@ export default navbar([
     ],
   },
   {
+    text: "记录",
+    icon: "pen-to-square",
+    prefix: "/posts/record/",
+    children: [
+      { text: "jp", icon: "pen-to-square", link: "jp" },
+    ]
+  },
+  {
     text: "博客帮助文档",
     icon: "circle-info",
     prefix: "/demo/",
